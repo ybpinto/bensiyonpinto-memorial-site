@@ -1,0 +1,16 @@
+# Handle line endings automatically for files detected as text
+* text=auto
+
+# Images - treat as binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.gif binary
+*.webp binary
+*.ico binary
+
+# Fonts - treat as binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.eot binary
