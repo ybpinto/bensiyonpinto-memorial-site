@@ -5,20 +5,27 @@
 /* Serif headings */
 h1, h2, h3, h4, h5, h6 {
 	font-family: Georgia, "Times New Roman", Times, serif;
+	margin: 0 0 0 0;
+}
+
+/* Update fonts, size for subtitles */
+p.major {
+	font-size: 1.15rem;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Adjust padding for wrappers. Template default is too high */
+.wrapper.style1 > .inner {
+  padding: 3rem 0rem 1rem;
 }
 
 /* Navbar */
 .navbar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 10000;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 1rem 2rem;
-	background: rgba(255, 255, 255, 0.95);
+	background: rgba(248, 248, 248, 0.95);
 	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -88,9 +95,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .condolences-container {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 	gap: 2rem;
-	padding: 2rem 0;
+	padding: 2rem 0.5rem;
 	text-align: left;
 }
 
@@ -129,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Expandable condolence messages */
 .condolence-message.truncated {
 	display: -webkit-box;
-	-webkit-line-clamp: 4;
+	-webkit-line-clamp: 6;
 	-webkit-box-orient: vertical;
 	overflow: hidden;
 }
@@ -155,7 +161,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Gallery image sizing - consistent aspect ratio */
 .gallery article .image img {
 	width: 100%;
-	height: 250px;
+	height: 400px;
 	object-fit: cover;
 }
 
@@ -165,11 +171,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .gallery.medium article .image img {
-	height: 250px;
+	height: 350px;
 }
 
 .gallery.big article .image img {
-	height: 350px;
+	height: 600px;
+}
+
+.gallery.responsive article .image img {
+  height: 40vh; 		
+  min-height: 250px;
+  max-height: 600px;
 }
 
 .condolence-image {
@@ -256,7 +268,9 @@ footer.wrapper.style1 .inner p {
 }
 
 /* Responsive adjustments */
+/* Mobile: */
 @media screen and (max-width: 736px) {
+	/* 1 column max on condolences */
 	.condolences-container {
 		grid-template-columns: 1fr;
 	}
@@ -266,9 +280,31 @@ footer.wrapper.style1 .inner p {
 		align-items: flex-start;
 		gap: 0.25rem;
 	}
+	
+	.content p.keep-justified {
+		text-align: left;
+	}
 
 	#condolence-image-modal .modal-close {
 		top: 10px;
 		right: 10px;
 	}
+}
+
+/* Tablet: 2 columns */
+@media screen and (min-width: 737px) and (max-width: 1200px) {
+    .condolences-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+	.content p.keep-justified {
+		text-align: justify;
+	}
+}
+
+/* Desktop: 3 columns max */
+@media screen and (min-width: 1201px) {
+    .condolences-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
