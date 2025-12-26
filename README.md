@@ -64,7 +64,6 @@ memorial-website/
 │   ├── en.json                # All English text content (ISO 639-1)
 │   ├── tr.json                # All Turkish text content (ISO 639-1)
 │   └── condolences.json       # 122 archived messages (not translated)
-└── netlify.toml               # Netlify configuration (TODO)
 ```
 
 
@@ -141,3 +140,4 @@ The template uses reusable section patterns:
 - [Font Awesome](https://fontawesome.io)
 
 **Original Template Author**: AJ (aj@lkn.io | @ajlkn)
+
