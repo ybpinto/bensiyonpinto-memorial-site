@@ -1,9 +1,9 @@
 {
   "lang": "en",
   "nav": {
+    "home": "Home",
     "about": "About",
-    "professional": "Professional",
-    "family": "Family",
+    "gallery": "Gallery",
     "condolences": "Condolences"
   },
   "hero": {
@@ -25,6 +25,6 @@
     "subtitle": "Words of comfort and memories shared by family and friends"
   },
   "footer": {
-    "copyright": "In loving memory of Bensiyon Pinto."
+    "copyright": "In memory of Bensiyon Pinto."
   }
 }
