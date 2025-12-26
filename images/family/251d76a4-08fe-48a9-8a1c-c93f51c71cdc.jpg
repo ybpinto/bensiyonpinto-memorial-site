@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>website&#46;net</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <script type='text/javascript' language='JavaScript'>
+      var domain = 'website.net';
+      var uniqueTrackingID = 'MTc2NjYyMzMzNS40NjM5OjliNWI3NWQ4YzNkMWE5MWU3MTM2MTk4ODYyMmJjOGUxNzdiMDAzNjdlMGMyYzJjMThmN2U4Nzc4NmNmYTg1ZGM6Njk0Yzg4Njc3MTQxMw==';
+      var clickTracking = false;
+      var themedata = '';
+      var xkw = '';
+      var xsearch = '';
+      var xpcat = '';
+      var bucket = '';
+      var clientID = '';
+      var clientIDs = '';
+      var num_ads = 0;
+      var adtest = 'off';
+      var scriptPath = '';
+  </script>
+  <script src='//d38psrni17bvxu.cloudfront.net/scripts/js3.js' type='text/javascript' language='JavaScript'></script>
+    
+</head>
+<body>
+<script type='text/javascript' language='JavaScript'>
+    (function () {
+        var redirTrack = "f5b716a7c4355955097090390b52056e10e82c87";
+        var redirLink = "/iris?r=eyJhbGciOiJBMTI4S1ciLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0.NuJp7jNfSerHZ2s8pTzJo_xtra7T3aAIVGKySHAaxXf9_x3YnaMeMQ.6vB3NUV8c-ivSa-ByIdBFg.J26aI4Gpc5oflrm7LkQiqBtYhrRaAOb6DcZ7as-4PWzW9H7GFcP-yDh7PQ0j5qR2MNXZLsj-Hhrk94huYzXDa1KAobDx2GOz1VvjdW0iTvzZ0_eU8wxaW2JDK2zS0uXXappKQGYO5tJzRNmheeB5wde5_A94us5lGfOeevQdtHbJrUu5GvZFt3B0NN73Zr-5LkyeJsd9J7HKmXBLnGshmCDhz6g9f7V4dioRACXq5IvI6MnNpwBtBdID0EPsK3eIpjqmy9x5SaXPHoTJGlJ1cBjep-x8qzWOxaX4MqGzqC5VCrzAFAO1YscV4p3bgNzku-mfDnEQdR7SimRkifMJzzA5x19BggecIY2XqHD6UEcnqZ8RhcmUG_v39pGrvSZy5JUmWU4kcgWgtPR4AduqPoJcUtZ-20BL9CHis2AxOKtNwN5iW7yZqnExEiYaXvAdrhE59d2yleG06PXWc-FqMK_lFYBT-1zrU2VFgenYRUmf9AHZV8aHQzPq9YLA_xYI83sLMRaMLNl5rGPd0ijdjw8vFtIOsIMTd8-CLJ39To-yAJBZiZgNjeHTopLDATgpVlKeRJtl5OgieVqA_fPmcYWrQm71b-kUsElm3hJP57OHIifVxJus2dB8O4ezod_9igjiVe16gklrd0UWhMzQcorJieYh4PqUl2VpOX2eG0ki9tQxdCINBvqxVF6rMCAbp_5-c_0eZU8OUbBgC0RSB--0N0Yhq4fR5xKkEccW73EiRk_t43r9X6YDsrxMVOQPy32zWwk3w_KLHbdHx4VP4snSK4pGdVsM1Tt6OO2Ihrc.lup5CgRrtTpLdbysWfO-Wg";
+        var fired = false;
+
+        function doRedirect() {
+            if (fired) return;
+            fired = true;
+            if (clickTracking && typeof track_onclick === 'function') {
+                try {
+                    track_onclick(redirTrack);
+                } catch (e) { /* noop */
+                }
+            }
+            if (redirLink.indexOf('http') === 0) {
+                location.replace(redirLink);
+            } else {
+                history.pushState(null, null, redirLink);
+                history.go();
+            }
+        }
+
+        window.onRTBFailure = function () {
+            doRedirect();
+        };
+
+        window.onRTBSuccess = function (data) {
+
+        };
+    })();
+</script>
+<script type="text/javascript">
+var ls = function(xhr, token) {
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status < 200 || xhr.status >= 400) {
+                console.log('There was a problem with the request.');
+            }
+            
+            if (typeof window.onRTBFailure === 'function') { window.onRTBFailure(); }
+        }
+    }
+    
+    xhr.open('GET', '/munin/a/l' + 's?t=694c8867&token=' + encodeURI(token), true);
+    xhr.send();
+};
+ls(new XMLHttpRequest(), '297ef307618a5cf8ae2ca6926b6057dde2702800');
+</script>
+<style media="screen">
+.asset_star0 {
+	background: url('//d38psrni17bvxu.cloudfront.net/themes/assets/star0.gif') no-repeat center;
+	width: 13px;
+	height: 12px;
+	display: inline-block;
+}
+
+.asset_star1 {
+	background: url('//d38psrni17bvxu.cloudfront.net/themes/assets/star1.gif') no-repeat center;
+	width: 13px;
+	height: 12px;
+	display: inline-block;
+}
+
+.asset_starH {
+	background: url('//d38psrni17bvxu.cloudfront.net/themes/assets/starH.gif') no-repeat center;
+	width: 13px;
+	height: 12px;
+	display: inline-block;
+}
+
+.sitelink {
+	padding-right: 16px;
+}
+
+.sellerRatings a:link,
+.sellerRatings a:visited,
+.sellerRatings a:hover,
+.sellerRatings a:active {
+	text-decoration: none;
+	cursor: text;
+}
+
+.sellerRatings {
+	margin:0 0 3px 20px;
+}
+
+.sitelinkHolder {
+	margin:-15px 0 15px 35px;
+}
+
+#ajaxloaderHolder {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: #fff;
+	padding: 8px 0 0 8px;
+	margin:10px auto;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}</style><style media="screen">
+* {
+    margin:0;padding:0
+}
+
+body {
+    background:#101c36;
+    font-family: sans-serif;
+    text-align: center;
+    font-size:1rem;
+}
+
+.header {
+    padding:1rem 1rem 0;
+    overflow:hidden;
+}
+
+h1 {
+    color:#848484;
+    font-size:1.5rem;
+}
+
+.header-text-color:visited,
+.header-text-color:link,
+.header-text-color {
+    color:#848484;
+}
+
+.comp-is-parked {
+  margin: 4px 0 2px;
+}
+
+.comp-sponsored {
+  text-align: left;
+  margin: 0 0 -1.8rem 4px;
+}
+
+.wrapper1 {
+    margin:1rem;
+}
+
+.wrapper2 {
+    background:url('//d38psrni17bvxu.cloudfront.net/themes/cleanPeppermintBlackConsent_657d9013/img/bottom.png') no-repeat center bottom;
+    padding-bottom:140px;
+}
+
+.wrapper3 {
+    background: transparent;
+    max-width:300px;
+    margin:0 auto 1rem;
+    padding-top:1px;
+    padding-bottom:1px;
+}
+
+.onDesktop {
+    display:none;
+}
+
+.tcHolder {
+    padding-top: 2rem;
+}
+
+.adsHolder {
+    margin: 1rem 0;
+    padding-top: 2rem;
+    overflow:hidden;
+}
+
+.footer {
+    color:#626574;
+    padding:2rem 1rem;
+    font-size:.8rem;
+    margin:0 auto;
+    max-width:440px;
+}
+
+.footer a:link,
+.footer a:visited {
+    color:#626574;
+}
+
+.searchHolder {
+    padding:1px 0 1px 1px;
+    margin:1rem auto;
+    width: 95%;
+    max-width: 500px;
+}
+
+.fallback-term-holder {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    padding-top: 75px;
+}
+
+.fallback-term-link {
+    grid-column: 1 / span 1; align-self: center;
+    padding: 50px 13px 50px 13px; border-radius: 25px;
+    border: 5px solid #ffffff; margin-bottom: 20px;
+    background-color: rgb(16, 28, 54);
+    text-decoration-line: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: left;
+}
+
+.fallback-term-link:hover {
+    background-color: #242b42;
+
+    text-decoration-line: underline;
+    text-decoration-color: currentColor;
+    text-decoration-thickness: auto;
+}
+
+@media screen and (min-width:600px) {
+
+    .comp-is-parked,
+    .comp-sponsored {
+      color: #848484;
+    }
+
+    .comp-sponsored {
+      margin-left: 0;
+    }
+
+    .wrapper1 {
+        max-width:1500px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .wrapper2 {
+        background:url('//d38psrni17bvxu.cloudfront.net/themes/cleanPeppermintBlackConsent_657d9013/img/arrows.png') no-repeat center top;
+        padding-bottom:0;
+        min-height:600px;
+    }
+
+    .wrapper3 {
+        max-width:530px;
+        background:none;
+    }
+}
+</style>
+<div class="wrapper1" id="keywords-template" style="display:none;">
+    <div class="wrapper2">
+        <div class="wrapper3">
+            <div id="fallbackTerms" class="fallback-term-holder"></div>
+        </div>
+    </div>
+</div>
+<script async src='https://euob.youstarsbuilding.com/sxp/i/522f8dbab717f669a06afa9122107971.js' data-ch='AdsDeli - Redirect' data-uvid="297ef307618a5cf8ae2ca6926b6057dde2702800" class='ct_clicktrue_85911' data-jsonp="onCheqResponse"></script>
+<noscript>
+    <iframe src='https://obseu.youstarsbuilding.com/ns/522f8dbab717f669a06afa9122107971.html?ch=AdsDeli%20-%20Redirect' width='0' height='0' style='display:none'></iframe>
+</noscript></body>
+</html>
