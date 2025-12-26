@@ -1,0 +1,30 @@
+{
+  "lang": "tr",
+  "nav": {
+    "about": "Hakkında",
+    "professional": "Profesyonel",
+    "family": "Aile",
+    "condolences": "Anılar"
+  },
+  "hero": {
+    "name": "Bensiyon Pinto",
+    "dates": "1936 - 2022",
+    "intro": "Bu site değerli varlığımız Bensiyon Pinto’nun anısını yaşatmak için yapılmıştır. \n\nKendisini, yalnızca biz ailesine değil, toplumuna ve ülkesine adamış; hepimizin derdi kendi derdi olmuş, ama dertlenmekle kalmamış çare bulmuş biri olarak hatırlayacağız. \n\nBu sitede, Bensiyon Pinto’yu bize verdiği sevgi ve enerji, yaptığı katkılar, birlikte yaşadığımız sevinçli, hüzünlü, başarılı olaylar, akışını değiştirdiği hayat hikayeleri ile anıyoruz."
+  },
+  "about": {
+    "title": "Bensiyon Pinto kimdir?",
+    "subtitle": "Bensiyon Pinto, 8 Ekim 1936 tarihinde İstanbul’un Şişhane, Kuledibi semtinde dünyaya gelmiştir.",
+    "bio": "İlkokulu, Birinci Karma Musevi İlkokulunda, ortaokulu da Fransız Saint Michelle Lisesinde okumuş, askerliğini 1958’de Denizli’de tamamlamıştır. İş hayatına Karaköy Bankalar Caddesinde elektrik malzemesi ticareti ile başlamış ve iş yaşamını aynı alanda sanayici olarak sürdürmüştür. \n\nTürk Yahudi Toplumundaki yöneticiliğine 1954 yılında başlamış, İstanbul Yıldırım Spor Kulübünün kurucularından biri olmuş; 1976’da Türk Yahudi Toplumunun merkezi olan Türkiye Hahambaşılığında, maliye bölümünün başına geçmiştir. 1979’da Hahambaşılık Müşavirlerinin Başkan vekilliğini yapmıştır. 1989 yılından 2003 yılına kadar muhtelif zamanlarda, toplam 10 yıl Türk Yahudi Toplumu Başkanlığı görevinde bulunmuş, idarenin yapılandırılması ve toplumsal birlik ve bütünlüğünün yaşatılmasında için çok ciddi katkı sağlamış; Türk siyasetini yöneten ve yönlendiren isimlerle her zaman yakın ve samimi ilişkiler içinde olmuş; ülkemiz, bölgemiz ve dünyada barışın ve anlayışın hakim olması için her zaman gayret göstermiş; çalışmalarının tamamını, Türkiye Cumhuriyetinin dünyaya doğru bir şekilde tanıtılması doğrultusunda yapmayı, yaşamı boyunca ilke edinmiştir. 2003 yılında Türkiye’deki Sefarad toplumu ile İspanya arasındaki kültürel ilişkilere katkısı için İspanya tarafından Alfonso X Del Sabio Grand Cross Nişanı’na layık görülmüştür. \n\nİş yaşamında, toplumsal görevlerinde ve kişisel ilişkilerinde çevresi ile çok olumlu ilişkiler kurmuş; tüm toplumun saygı gören, danışılan, çok değer verilen bir kanaat önderi olmuştur. Kendisini toplumuna ve ülkesine adamış, çok çok kişinin hayatına dokunmuş, her bir kişinin derdi kendi derdi olmuş; ama dertlenmekle yetinmeyip çare bulmuş biri olarak hatırlanmaktadır. \n\nBaşkanlığından sonra, anılarını nehir söyleşi olarak anlatmış, yaşamının en önemli bölümleri, “Anlatmasam Olmazdı - Geniş Toplumda Yahudi Olmak” başlığı altında derlenmiş, 2008 yılında yayınlanmış, Almanca ve İngilizceye çevrilmiştir. \n\nTürk Yahudi Toplumunun ilk ve tek Onursal Başkanı olan Bensiyon Pinto; Ester “Eti” Pinto ile evli, iki oğul ve dört torun sahibidir. "
+  },
+  "gallery": {
+    "professional_title": "Toplumsal Çalışmalar",
+    "family_title": "Aile ve Arkadaşlar"
+  },
+  "condolences": {
+    "title": "Anma Mesajları",
+    "subtitle": "Aile ve dostların paylaştığı hikayeler ve anılar"
+  },
+  "footer": {
+    "copyright": "Bensiyon Pinto'nun sevgi dolu anısına."
+  }
+}

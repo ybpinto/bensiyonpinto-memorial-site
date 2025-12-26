@@ -1,0 +1,30 @@
+{
+  "lang": "en",
+  "nav": {
+    "about": "About",
+    "professional": "Professional",
+    "family": "Family",
+    "condolences": "Condolences"
+  },
+  "hero": {
+    "name": "Bensiyon Pinto",
+    "dates": "1936 - 2022",
+    "intro": "This memorial website is created in memory of our treasured Bensiyon Pinto. \n\nHe is remembered not only by his family but also by many others on whose life he made an everlasting influence. \n\nWe encourage you to read through Bensiyon Bey's stories on this site. They will be an inspiration for all."
+  },
+  "about": {
+    "title": "Who is Bensiyon Pinto?",
+    "subtitle": "Bensiyon Pinto was born in Kuledibi, Şişhane, Istanbul on October 8th, 1936.",
+    "bio": "He went to primary school at Istanbul Jewish School and completed middle and high school at Lycée Saint-Benoît d'Istanbul. He completed his military service in Denizli in 1958. He started his business life by trading electrical supplies and continued as an industrialist in the same field throughout his life. \n\nFrom his early years, Bensiyon Pinto dedicated his life to his family, friends, community, and country. His involvement in the Turkish Jewish Community started in 1954 as a founding member of Yildirim Spor Kulubu (Yildirim Sports Club). In 1976, he became the head of the Finance Committee of the Turkish Jewish Community and then the Vice President of the Chief Rabbinate of Turkey from 1979 until 1984. After a break in active participation in the administrative body of Turkey’s Jewish community, duty called him again in 1989 when he assumed the role of the President of the Turkish Jewish Community. \n\nHe served in this role for a total of 10 years in various periods from 1989 to 2003. During this time, he led the restructuring of the official administrative body, and ensured unity and harmony within the community. He kept close and sincere relations with the Turkish government and individuals who shaped and led Turkish politics. He persistently devoted his efforts to keeping peace and harmony within our country, region and in the world. His efforts were dedicated to introducing and representing the Republic of Turkey globally and he kept this as his primary principle.\n\nAfter completing his duty as the President of the Turkish Jewish Community, he was awarded the first and only title of “Honorary President of the Turkish Jewish Community.” Following his tenure, he wrote his memoirs in a book titled “My Life as a Turkish Jew,” published in 2008. His book was translated to German and English.\n\nThroughout his life, anyone could always reach him in times of need and count on his helping hand that he generously offered, along with his time, understanding, compassion, and wisdom.\n\nPinto is married to Ester “Eti” Pinto and has two sons and four grandchildren."
+  },
+  "gallery": {
+    "professional_title": "Community Leadership",
+    "family_title": "Family & Friends"
+  },
+  "condolences": {
+    "title": "Messages of Remembrance",
+    "subtitle": "Words of comfort and memories shared by family and friends"
+  },
+  "footer": {
+    "copyright": "In loving memory of Bensiyon Pinto."
+  }
+}

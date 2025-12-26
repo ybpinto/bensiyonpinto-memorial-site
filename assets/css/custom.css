@@ -1,0 +1,254 @@
+/**
+ * Custom styles for Memorial Website
+ */
+
+/* Serif headings */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Navbar */
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10000;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+	background: rgba(255, 255, 255, 0.95);
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-left, .nav-right {
+	display: flex;
+	align-items: center;
+	gap: 1.5rem;
+}
+
+.nav-right a {
+	color: #333;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-weight: 600;
+	transition: color 0.2s ease;
+}
+
+.nav-right a:hover {
+	color: #666;
+}
+
+/* Language Toggle */
+.lang-toggle {
+	color: #333;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition: color 0.2s ease;
+}
+
+.lang-toggle:hover {
+	color: #666;
+}
+
+/* Mobile navbar */
+@media screen and (max-width: 736px) {
+	.navbar {
+		padding: 0.75rem 1rem;
+	}
+
+	.nav-right {
+		gap: 0.75rem;
+	}
+
+	.nav-right a {
+		font-size: 0.8rem;
+	}
+}
+
+/* Preserve line breaks in translatable content */
+[data-lang-key="hero.intro"],
+[data-lang-key="about.subtitle"],
+[data-lang-key="about.bio"] {
+	white-space: pre-line;
+}
+
+/* Condolences Section */
+#condolences .inner + .inner {
+	padding-top: 0;
+}
+
+.condolences-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+	gap: 2rem;
+	padding: 2rem 0;
+	text-align: left;
+}
+
+.condolence-card {
+	background: #f8f8f8;
+	padding: 1.5rem;
+	border-radius: 8px;
+	border-left: 4px solid #333;
+}
+
+.condolence-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+	margin-bottom: 1rem;
+	padding-bottom: 0.5rem;
+	border-bottom: 1px solid #ddd;
+}
+
+.condolence-header strong {
+	font-size: 1.1em;
+	color: #333;
+}
+
+.condolence-header .date {
+	font-size: 0.85em;
+	color: #666;
+}
+
+.condolence-message {
+	line-height: 1.6;
+	color: #444;
+	margin: 0;
+}
+
+/* Expandable condolence messages */
+.condolence-message.truncated {
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+.condolence-message.expanded {
+	display: block;
+	-webkit-line-clamp: unset;
+	overflow: visible;
+}
+
+.expand-toggle {
+	display: block;
+	margin-top: 0.5rem;
+	color: #666;
+	font-size: 0.9em;
+	text-decoration: underline;
+}
+
+.expand-toggle:hover {
+	color: #333;
+}
+
+/* Gallery image sizing - consistent aspect ratio */
+.gallery article .image img {
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+
+/* Adjust for different gallery sizes */
+.gallery.small article .image img {
+	height: 180px;
+}
+
+.gallery.medium article .image img {
+	height: 250px;
+}
+
+.gallery.big article .image img {
+	height: 350px;
+}
+
+.condolence-image {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.condolence-image img {
+	max-width: 200px;
+	height: auto;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: transform 0.2s;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.condolence-image img:hover {
+	transform: scale(1.05);
+}
+
+/* Native dialog modal styles */
+#condolence-image-modal {
+	max-width: 90vw;
+	max-height: 90vh;
+	border: none;
+	border-radius: 8px;
+	padding: 0;
+	background: transparent;
+}
+
+#condolence-image-modal::backdrop {
+	background: rgba(0, 0, 0, 0.8);
+}
+
+#condolence-image-modal .modal-content {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#condolence-image-modal img {
+	max-width: 90vw;
+	max-height: 90vh;
+	height: auto;
+	display: block;
+	border-radius: 4px;
+}
+
+#condolence-image-modal .modal-close {
+	position: absolute;
+	top: -40px;
+	right: 0;
+	background: white;
+	border: none;
+	border-radius: 50%;
+	width: 36px;
+	height: 36px;
+	font-size: 24px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+#condolence-image-modal .modal-close:hover {
+	background: #f0f0f0;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 736px) {
+	.condolences-container {
+		grid-template-columns: 1fr;
+	}
+
+	.condolence-header {
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.25rem;
+	}
+
+	#condolence-image-modal .modal-close {
+		top: 10px;
+		right: 10px;
+	}
+}
