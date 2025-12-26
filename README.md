@@ -37,31 +37,36 @@ python -m http.server 8000
 
 ```
 memorial-website/
-├── index.html                 # Main website (production)
-├── index-demo.html            # Template reference with component examples
-├── CLAUDE.md                  # Claude Code instructions
-├── implementation_plan.md     # Detailed development roadmap
+├── index.html                 # Main website file
+├── README.md                  # Technical documentation for developers (TODO)
+├── FAMILY_GUIDE.md            # Non-technical guide for family updates (TODO)
+├── .gitattributes             # Git attributes for image handling
 ├── assets/
 │   ├── css/
-│   │   └── main.css           # Compiled stylesheet
+│   │   ├── main.css           # Story template styles (includes gallery)
+│   │   └── custom.css         # Custom styles (navbar, condolences, galleries)
 │   ├── js/
-│   │   ├── main.js            # Core functionality (gallery, lightbox, scroll effects)
-│   │   ├── util.js            # Utility functions
-│   │   ├── language-toggle.js # Language switching (planned)
-│   │   └── condolence-modal.js# Condolence image modal (planned)
-│   ├── sass/                  # SCSS source files
-│   └── webfonts/              # Font Awesome icons
+│   │   ├── main.js            # Story template scripts (includes gallery lightbox)
+│   │   ├── language-toggle.js # Language switching functionality
+│   │   └── condolence-modal.js # Condolence loading and image modal
+│   ├── sass/                  # SCSS source files (pre-compiled)
+│   └── webfonts/              # Template fonts
 ├── images/
-│   ├── home.jpeg              # Hero section portrait
-│   ├── about.jpeg             # About section portrait
-│   ├── professional/          # 65 career photos (01.jpg - 65.jpg)
-│   ├── family/                # 155 personal photos (01.jpg - 155.jpg)
-│   └── condolences/           # 10 attached images (01.jpg - 10.jpg)
-└── content/                   # (Planned)
-    ├── english.json           # English text content
-    ├── turkish.json           # Turkish text content
-    └── condolences.json       # Archived condolence messages
+│   ├── home.jpeg              # Main headshot for hero section
+│   ├── about.jpeg             # Different headshot for about section
+│   ├── professional/          # 65 career photos (UUID filenames)
+│   │   └── *.jpg              # e.g., 03499452-6802-4ed8-bf5e-c3da93b59c7f.jpg
+│   ├── family/                # 155 family photos (UUID filenames)
+│   │   └── *.jpg
+│   └── condolences/           # 10 images attached to messages (UUID filenames)
+│       └── *.jpeg
+├── content/
+│   ├── en.json                # All English text content (ISO 639-1)
+│   ├── tr.json                # All Turkish text content (ISO 639-1)
+│   └── condolences.json       # 122 archived messages (not translated)
+└── netlify.toml               # Netlify configuration (TODO)
 ```
+
 
 ## Content Management
 
