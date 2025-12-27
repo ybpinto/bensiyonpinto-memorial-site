@@ -473,15 +473,12 @@ footer.wrapper.style1 .inner p {
 .video-container {
 	position: relative;
 	height: 400px;
-	overflow: hidden;
+	overflow: visible;
 	border-radius: 4px;
 	margin-bottom: 1.5rem;
 }
 
 .video-container iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
 	width: 100%;
 	height: 100%;
 	border: none;
@@ -527,6 +524,7 @@ footer.wrapper.style1 .inner p {
 	.service-columns {
 		flex-direction: column;
 		gap: 2rem;
+		padding: 0 1.5rem;
 	}
 
 	.service-column {
@@ -540,6 +538,10 @@ footer.wrapper.style1 .inner p {
 }
 
 @media screen and (max-width: 480px) {
+	.service-columns {
+		padding: 0 1rem;
+	}
+
 	.video-container,
 	.tombstone-image {
 		height: 220px;
