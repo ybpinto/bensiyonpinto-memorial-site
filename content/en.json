@@ -4,7 +4,8 @@
     "home": "Home",
     "about": "About",
     "gallery": "Gallery",
-    "condolences": "Condolences"
+    "condolences": "Condolences",
+    "service": "Farewell"
   },
   "hero": {
     "name": "Bensiyon Pinto",
@@ -23,6 +24,14 @@
   "condolences": {
     "title": "Messages of Remembrance",
     "subtitle": "Words of comfort and memories shared by family and friends"
+  },
+  "service": {
+    "title": "Farewell Service",
+    "subtitle": "The farewell service took place on Sunday, January 16th, 2022 at 1:00 PM at the Ulus Ashkenazi Jewish Cemetery, followed by interment at the Ulus Jewish Cemetery.",
+    "youtube_embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xudgMyk_wDY?si=Eqpo3zfAI9EeUBS-\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "memorial_title": "Tombstone",
+    "memorial_subtitle": "As told by architect Hasan Çalışlar",
+    "memorial_content": "When I received a call from his son asking me to design Bensiyon Pinto's grave, I accepted without hesitation. Cemetery design also represents a return to the point where the profession began for architects. Graves are micro-architectural products with simple functions but strong symbolic values.\n\nJust like other micro-architectural products, graves are unfortunately made in our country without much consideration, thought, and often by rote. Sometimes a symbol representing the deceased is added to the stone, sometimes the dimensions can change, but it is possible to say that beyond this, they are not very different from each other.\n\nIn its most basic form, a grave is actually a Cartesian schema consisting of rectangles. What is essential within this schema is to work in a single unit and to be able to create a memory space there. When the space in question is associated with the character of the grave's owner, it is possible to make this feeling of memory easier to experience. The grave is also a point where we wait in Purgatory between existence and disappearance, where we experience pause. Graves are heavy structures on a micro scale with marble density and abundant use of stone; however, the connection they establish with their visitors contains an energy and dynamism far beyond this stillness.\n\nFor this very reason, it would not be possible to think of or design Bensiyon Pinto's grave independently of his personality. Bensiyon Pinto was a particularly special person not only as the long-time leader of an important and well-established community, but also with his ability to touch many people and his magical communication skills. His grave needed to express this.\n\nI am one of those who had the privilege of knowing Mr. Bensiyon while he was alive and tasted the pleasure of sitting at his table; as someone who experienced his multifaceted, colorful personality, his outlook on life, his helpfulness, his conciliatory attitude, his ability to bring five different people together, I chose to emphasize these characteristics in his own language while designing his eternal resting place, and more importantly, to remember (and remind).\n\nBensiyon Pinto was a Community leader, yes, but also a spouse, father, grandfather, friend. Confining this multifaceted, multi-identity person to solely religious symbols would be inadequate. He was everyone's Bensiyon in different ways. Therefore, while starting from the traditional Menorah, I tried to make an abstraction and bring seven stones of different sizes and geometries to a single plane in harmony. These stone towers, which rise and narrow progressively, gain completeness in the grave with a second mass that defines the perspective it creates on the other side, remaining in the background but balancing the center of gravity. This center of gravity balancer stone is actually reserved for the person who brought balance to his life. The seven stones of different sizes were intended to function as a sundial according to seasonal changes and sun movements and to create unique images for each visitor with the changing richness of their shadows.\n\nThe name inscription stands out alone and all information about Bensiyon Pinto can be accessed through a QR code. This prevents this simple mass from competing with graphic density.\n\nWith wishes for him to rest in peace."
   },
   "footer": {
     "copyright": "In memory of Bensiyon Pinto."

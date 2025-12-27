@@ -4,7 +4,8 @@
     "home": "Anasayfa",
     "about": "Hakkında",
     "gallery": "Galeri",
-    "condolences": "Anılar"
+    "condolences": "Anılar",
+    "service": "Uğurlama"
   },
   "hero": {
     "name": "Bensiyon Pinto",
@@ -23,6 +24,14 @@
   "condolences": {
     "title": "Anma Mesajları",
     "subtitle": "Aile ve dostların paylaştığı hikayeler ve anılar"
+  },
+  "service": {
+    "title": "Uğurlama",
+    "subtitle": "Cenaze töreni 16 Ocak 2022 Pazar günü saat 13.00’te Ulus Aşkenaz Musevi Mezarlığında icra olmuştur ve Ulus Musevi Mezarlığına defnedilmiştir.",
+    "youtube_embed": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/xudgMyk_wDY?si=Eqpo3zfAI9EeUBS-\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
+    "memorial_title": "Mezar Taşı",
+    "memorial_subtitle": "Mimar Hasan Çalışlar'ın ağzından",
+    "memorial_content": "Bensiyon Pinto’nun mezarını tasarlamam için oğlundan telefon aldığımda hiç düşünmeden kabul ettim. Mezarlık tasarımı, mimarlar için mesleğin başladığı noktaya dönüşü de temsil eder. İşlevi basit ama sembolik değerleri güçlü mikro mimarlık ürünleridir mezarlar.\n\nTıpkı başka mikro mimarlık ürünleri gibi mezarlar da ne yazık ki ülkemizde üzerinde fazla durulmadan, düşünülmeden, çoğu zaman da ezberden yapılıyor.  Kimi zaman müteveffayı temsil eden bir sembol ekleniyor taşa, kimi zaman da ebadı değişebiliyor ama bunun ötesinde birbirlerinden çok farkı olmadığını söylemek mümkün.\n\nEn temel haliyle mezar, dörtgenlerden oluşan Kartezyen bir şema aslında. Bu şema içinde esas olan, tek bir ünitede çalışmak ve orada bir hafıza mekânı oluşturabilmek. Söz konusu mekân mezarın sahibinin karakteri ile ilişkilendirildiğinde bu hafıza hissinin daha kolay yaşatılması olası. Varlık ile yitmişlik arasında Araf’ta beklediğimiz, duraklama yaşadığımız bir nokta aynı zamanda mezar. Mermer yoğunluğu, bolca taş kullanımı ile mikro ölçeğinde ağır yapılar mezarlar; oysa ziyaretçileri ile kurdukları bağ, bu durağanlığın çok ötesinde bir enerji ve dinamizm barındırıyor.\n\nTam da bu yüzden, Bensiyon Pinto’nun mezarının O’nun kişiliğinden bağımsız düşünülmesi, tasarlanması mümkün olamazdı. Yalnızca önemli ve köklü bir toplumun uzun yıllar lideri olması sıfatıyla değil, pek çok kişiye dokunabilme becerisi ve sihirli iletişim yeteneğiyle de ayrıca özel bir insandı Bensiyon Pinto. Mezarının da bunu dillendirmesi gerekiyordu.\n\nHayattayken Bensiyon Bey’i tanıma ayrıcalığına erişip, sofrasına oturma zevkini tadanlardanım; çok yönlü, renkli kişiliğini, hayata bakışını, yardımseverliğini uzlaşmacı tavrını, beş benzemezi bir araya getirebilme becerisini deneyimlemiş biri olarak ebedi istirahatgâhını tasarlarken de bu özelliklerini yine onun dilinden vurgulamayı, daha da önemlisi hatırla(t)mayı seçtim.\n\nBensiyon Pinto Cemaat başkanı evet, ama aynı zamanda bir eş, baba, dede, dost. Bu çok yönlü, çok kimlikli insanı salt dini sembollere hapsetmek yetersiz kalacaktı. O, farklı şekillerde herkesin Bensiyon’u idi. Bu yüzden, geleneksel Menora’dan yola çıkmakla beraber bir soyutlama yapıp yedi farklı boyutta ve geometride taşı bir armoni ile tek düzleme taşımaya çalıştım. Gittikçe yükselen ve daralan bu taş kuleler, diğer kolda oluşturduğu perspektifi tanımlayan, arka planda kalan ama ağırlık merkezini dengeleyen ikinci bir kütle ile bütünlük kazanıyor mezarda. Bu ağırlık merkezi dengeleyecisi taş aslında; O’nun hayatına da denge getirmiş kişi için rezerve edilmiş durumda. Yedi adet farklı boyuttaki taş, mevsim değişimleri ve güneş hareketlerine göre bir güneş saati işlevi görmesi ve gölgelerinin değişen zenginliğiyle her ziyaretçi için tek defaya mahsus (ünik) görüntüler oluşturması hedeflendi.\n\nİsim yazısı ise tek başına öne çıkıyor ve Bensiyon Pinto hakkındaki tüm bilgilere bir QR kodu aracılığı ile ulaşılabiliyor. Bu sade kütlenin grafik yoğunluk ile yarışmasını engellemiş oluyor.\n\nHuzur içinde uyuması dileğiyle."
   },
   "footer": {
     "copyright": "Bensiyon Pinto anısına yapılmıştır."
