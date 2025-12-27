@@ -339,3 +339,57 @@
 						});
 
 })(jQuery);
+
+// Gallery toggle functionality
+(function() {
+	// Force lazy images in viewport to load by triggering browser's lazy load mechanism
+	function triggerLazyLoad() {
+		// Small scroll triggers the browser's IntersectionObserver for lazy loading
+		window.scrollBy(0, 1);
+		window.scrollBy(0, -1);
+	}
+
+	function switchGallery(gallery) {
+		var professional = document.getElementById('professional');
+		var family = document.getElementById('family');
+
+		if (!professional || !family) return;
+
+		if (gallery === 'professional') {
+			professional.classList.remove('hidden');
+			family.classList.remove('active');
+		} else {
+			professional.classList.add('hidden');
+			family.classList.add('active');
+		}
+
+		// Update active class on toggle links
+		document.querySelectorAll('.toggle-link').forEach(function(link) {
+			link.classList.toggle('active', link.dataset.gallery === gallery);
+		});
+
+		// Scroll to top of gallery
+		window.scrollTo(0, 0);
+
+		// Wait for CSS visibility changes to apply, then trigger lazy loading
+		setTimeout(function() {
+			triggerLazyLoad();
+		}, 50);
+	}
+
+	// Handle click on toggle links
+	document.querySelectorAll('.toggle-link').forEach(function(link) {
+		link.addEventListener('click', function(e) {
+			e.preventDefault();
+			var gallery = this.dataset.gallery;
+			switchGallery(gallery);
+			history.pushState(null, '', '#' + gallery);
+		});
+	});
+
+	// Check URL hash on load
+	var hash = window.location.hash.slice(1);
+	if (hash === 'family') {
+		switchGallery('family');
+	}
+})();

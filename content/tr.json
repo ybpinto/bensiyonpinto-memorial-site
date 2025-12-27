@@ -1,9 +1,9 @@
 {
   "lang": "tr",
   "nav": {
+    "home": "Anasayfa",
     "about": "Hakkında",
-    "professional": "Profesyonel",
-    "family": "Aile",
+    "gallery": "Galeri",
     "condolences": "Anılar"
   },
   "hero": {
@@ -25,6 +25,6 @@
     "subtitle": "Aile ve dostların paylaştığı hikayeler ve anılar"
   },
   "footer": {
-    "copyright": "Bensiyon Pinto'nun sevgi dolu anısına."
+    "copyright": "Bensiyon Pinto anısına yapılmıştır."
   }
 }
