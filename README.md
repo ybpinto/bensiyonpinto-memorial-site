@@ -19,7 +19,7 @@ A bilingual (English/Turkish) memorial website built on the HTML5 UP Story templ
 - **Template**: [HTML5 UP Story](https://html5up.net/story)
 - **Libraries**: jQuery, Scrollex, Scrolly
 - **Styling**: SASS (pre-compiled to CSS)
-- **Hosting**: Planned for Netlify (free tier with automatic SSL)
+- **Hosting**: GitHub Pages
 
 ## Getting Started
 
@@ -144,13 +144,14 @@ The template uses reusable section patterns:
 
 ## Deployment
 
-### Netlify (Recommended)
+### GitHub Pages
 
 1. Push code to GitHub repository
-2. Connect repository to Netlify
-3. No build settings needed (static site)
-4. Configure custom domain in Netlify settings
-5. SSL is automatic
+2. Go to repository Settings > Pages
+3. Set source to "Deploy from a branch"
+4. Select the branch (e.g., `main` or `gh-pages`) and root folder
+5. Save - site will be live at `https://<username>.github.io/<repo-name>/`
+6. For custom domain: add domain in Pages settings and configure DNS
 
 ### Performance Notes
 
