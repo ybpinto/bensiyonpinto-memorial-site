@@ -308,3 +308,95 @@ footer.wrapper.style1 .inner p {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* ========================================
+   Gallery Toggle Navigation
+   ======================================== */
+.gallery-toggle {
+	text-align: center;
+	padding: 2rem 1rem 1rem;
+	background: #fff;
+	position: sticky;
+	top: 0;
+	z-index: 99;
+}
+
+.gallery-toggle .toggle-link {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: #666;
+	text-decoration: none;
+	padding: 0.5rem 1rem;
+	transition: color 0.2s;
+}
+
+.gallery-toggle .toggle-link:hover,
+.gallery-toggle .toggle-link.active {
+	color: #000;
+}
+
+.gallery-toggle .toggle-separator {
+	color: #ccc;
+	margin: 0 0.5rem;
+}
+
+/* Section visibility - default shows professional, hides family */
+/* Using height:0 + overflow:hidden to preserve lazy loading while collapsing space */
+#family {
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+#family.active {
+	height: auto;
+	overflow: visible;
+	visibility: visible;
+}
+
+#professional.hidden {
+	height: 0;
+	overflow: hidden;
+	visibility: hidden;
+}
+
+/* Gallery page container padding */
+#professional .gallery.style1,
+#family .gallery.style1 {
+	padding: 1rem 2rem;
+}
+
+/* Add spacing between gallery images */
+.gallery.style1 article {
+	padding: 0.5rem;
+	box-sizing: border-box;
+}
+
+/* Grid image sizing for style1 gallery */
+.gallery.style1 article .image img {
+	height: 300px;
+	object-fit: cover;
+}
+
+@media screen and (max-width: 980px) {
+	#professional .gallery.style1,
+	#family .gallery.style1 {
+		padding: 1rem 1.5rem;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.gallery-toggle .toggle-link {
+		font-size: 1.2rem;
+		padding: 0.25rem 0.5rem;
+	}
+
+	#professional .gallery.style1,
+	#family .gallery.style1 {
+		padding: 1rem;
+	}
+
+	.gallery.style1 article .image img {
+		height: 250px;
+	}
+}
