@@ -342,6 +342,13 @@
 
 // Gallery toggle functionality
 (function() {
+	// Force lazy images in viewport to load by triggering browser's lazy load mechanism
+	function triggerLazyLoad() {
+		// Small scroll triggers the browser's IntersectionObserver for lazy loading
+		window.scrollBy(0, 1);
+		window.scrollBy(0, -1);
+	}
+
 	function switchGallery(gallery) {
 		var professional = document.getElementById('professional');
 		var family = document.getElementById('family');
@@ -363,6 +370,11 @@
 
 		// Scroll to top of gallery
 		window.scrollTo(0, 0);
+
+		// Wait for CSS visibility changes to apply, then trigger lazy loading
+		setTimeout(function() {
+			triggerLazyLoad();
+		}, 50);
 	}
 
 	// Handle click on toggle links
