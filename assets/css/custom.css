@@ -52,18 +52,36 @@ p.major {
 	border-bottom: 2px solid #333;
 }
 
-/* Language Toggle */
-.lang-toggle {
-	color: #333;
+/* Language Switcher */
+.lang-switcher {
+	display: flex;
+	align-items: center;
+	gap: 0.25rem;
+}
+
+.lang-link {
+	color: #999;
 	text-decoration: none;
 	font-size: 0.9rem;
 	font-weight: 600;
 	cursor: pointer;
 	transition: color 0.2s ease;
+	padding-bottom: 2px;
+	border-bottom: 2px solid transparent;
 }
 
-.lang-toggle:hover {
+.lang-link:hover {
 	color: #666;
+}
+
+.lang-link.active {
+	color: #000;
+	border-bottom: 2px solid #333;
+}
+
+.lang-separator {
+	color: #ccc;
+	font-size: 0.85rem;
 }
 
 /* Mobile navbar */
@@ -77,6 +95,14 @@ p.major {
 	}
 
 	.nav-right a {
+		font-size: 0.8rem;
+	}
+
+	.lang-link {
+		font-size: 0.8rem;
+	}
+
+	.lang-separator {
 		font-size: 0.8rem;
 	}
 }

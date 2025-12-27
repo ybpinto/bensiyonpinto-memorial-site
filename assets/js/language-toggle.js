@@ -97,7 +97,7 @@
 			currentLang = lang;
 			localStorage.setItem('preferredLanguage', lang);
 			applyLanguage(langData);
-			updateToggleButton();
+			updateLanguageLinks();
 		}
 	}
 
@@ -110,25 +110,37 @@
 	}
 
 	/**
-	 * Update the toggle button text
+	 * Update the active state on language links
 	 */
-	function updateToggleButton() {
-		const btn = document.getElementById('lang-toggle');
-		if (btn) {
-			btn.textContent = currentLang === 'en' ? 'TR' : 'EN';
-			btn.setAttribute('aria-label', currentLang === 'en' ? 'Türkçe\'ye geç' : 'Switch to English');
-		}
+	function updateLanguageLinks() {
+		const links = document.querySelectorAll('.lang-link');
+		links.forEach(link => {
+			const lang = link.getAttribute('data-lang');
+			if (lang === currentLang) {
+				link.classList.add('active');
+				link.setAttribute('aria-current', 'true');
+			} else {
+				link.classList.remove('active');
+				link.removeAttribute('aria-current');
+			}
+		});
 	}
 
 	/**
-	 * Initialize the language toggle button (bind to existing button in HTML)
+	 * Initialize the language links (bind click handlers)
 	 */
-	function initToggleButton() {
-		const btn = document.getElementById('lang-toggle');
-		if (btn) {
-			btn.addEventListener('click', toggleLanguage);
-			updateToggleButton();
-		}
+	function initLanguageLinks() {
+		const links = document.querySelectorAll('.lang-link');
+		links.forEach(link => {
+			link.addEventListener('click', function(e) {
+				e.preventDefault();
+				const lang = this.getAttribute('data-lang');
+				if (lang) {
+					switchLanguage(lang);
+				}
+			});
+		});
+		updateLanguageLinks();
 	}
 
 	/**
@@ -136,7 +148,7 @@
 	 */
 	async function init() {
 		currentLang = getInitialLanguage();
-		initToggleButton();
+		initLanguageLinks();
 
 		// Load and apply initial language
 		const langData = await loadLanguageData(currentLang);
