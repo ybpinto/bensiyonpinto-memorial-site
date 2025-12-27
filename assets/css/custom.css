@@ -404,6 +404,13 @@ footer.wrapper.style1 .inner p {
 	padding: 1rem 2rem;
 }
 
+/* Override gallery grid to max 3 columns (instead of template default 4) */
+@media screen and (min-width: 1281px) {
+	.gallery.style1 article {
+		width: 33.33333%;
+	}
+}
+
 /* Add spacing between gallery images */
 .gallery.style1 article {
 	padding: 0.5rem;
