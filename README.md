@@ -5,9 +5,10 @@ A bilingual (English/Turkish) memorial website built on the HTML5 UP Story templ
 ## Features
 
 - **Bilingual Support**: English and Turkish language toggle with browser language detection
-- **Photo Galleries**: Two galleries with lazy-loaded images
-  - Professional Life: 65 career photos
-  - Family & Friends: 155 personal photos
+- **Multi-Page Layout**: Separate pages for Home, About, Gallery, and Condolences
+- **Photo Galleries**: Two galleries with lazy-loaded images and toggle navigation
+  - Community Leadership: 65 photos
+  - Family & Friends: 155 photos
 - **Condolence Messages**: 122 archived messages (10 with attached images)
 - **Responsive Design**: Optimized for desktop, tablet, and mobile
 - **Lightbox**: Built-in gallery lightbox for full-screen image viewing
@@ -37,14 +38,19 @@ python -m http.server 8000
 
 ```
 memorial-website/
-├── index.html                 # Main website file
-├── README.md                  # Technical documentation for developers (TODO)
-├── FAMILY_GUIDE.md            # Non-technical guide for family updates (TODO)
+├── index.html                 # Home page (hero section)
+├── about.html                 # About page (biography)
+├── gallery.html               # Gallery page (professional + family with toggle)
+├── condolences.html           # Condolences page (dynamically loaded messages)
+├── demo.html                  # Template reference with all component examples
+├── README.md                  # This file
+├── CLAUDE.md                  # AI assistant instructions
 ├── .gitattributes             # Git attributes for image handling
 ├── assets/
 │   ├── css/
 │   │   ├── main.css           # Story template styles (includes gallery)
-│   │   └── custom.css         # Custom styles (navbar, condolences, galleries)
+│   │   ├── custom.css         # Custom styles (navbar, condolences, galleries)
+│   │   └── noscript.css       # Fallback styles when JS disabled
 │   ├── js/
 │   │   ├── main.js            # Story template scripts (includes gallery lightbox)
 │   │   ├── language-toggle.js # Language switching functionality
@@ -66,6 +72,29 @@ memorial-website/
 │   └── condolences.json       # 122 archived messages (not translated)
 ```
 
+## Site Pages
+
+### Home (`index.html`)
+Full-height hero banner with portrait image and introductory text.
+
+### About (`about.html`)
+Spotlight section with biography and portrait in alternating layout.
+
+### Gallery (`gallery.html`)
+Photo galleries with a toggle to switch between:
+- **Community Leadership**: 65 photos from his professional and community work
+- **Family & Friends**: 155 personal and family photos
+
+Both galleries use the Story template's built-in lightbox.
+
+### Condolences (`condolences.html`)
+Dynamically loaded condolence messages from `content/condolences.json`. Messages with attached images display them in a native HTML `<dialog>` modal.
+
+## Navigation
+
+A fixed navigation bar appears on all pages with:
+- **Language switcher** (EN | TR) on the left
+- **Page links** (Home, About, Professional, Condolences) on the right
 
 ## Content Management
 
@@ -73,24 +102,24 @@ memorial-website/
 
 - **Hero image**: Replace `images/home.jpeg` (keep same filename)
 - **About image**: Replace `images/about.jpeg` (keep same filename)
-- **Gallery images**: Add to `images/professional/` or `images/family/` with sequential numbering
+- **Gallery images**: Add to `images/professional/` or `images/family/` with UUID filenames
 
 ### Adding Gallery Photos
 
-1. Place the image in the appropriate folder with sequential naming (e.g., `66.jpg`)
-2. Add the HTML in the gallery section:
+1. Place the image in the appropriate folder with a UUID filename (e.g., `a1b2c3d4-e5f6-7890-abcd-ef1234567890.jpg`)
+2. Add the HTML in the gallery section of `gallery.html`:
 
 ```html
 <article>
-  <a href="images/professional/66.jpg" class="image">
-    <img src="images/professional/66.jpg" loading="lazy" alt="Photo description">
+  <a href="images/professional/your-uuid.jpg" class="image">
+    <img src="images/professional/your-uuid.jpg" loading="lazy" alt="">
   </a>
 </article>
 ```
 
 ### Bilingual Content
 
-Text content is stored in JSON files (`content/english.json`, `content/turkish.json`). The language toggle switches between these files. Condolence messages remain in their original language and are not translated.
+Text content is stored in JSON files (`content/en.json`, `content/tr.json`). The language toggle switches between these files. Condolence messages remain in their original language and are not translated.
 
 ## Section Components
 
@@ -103,8 +132,8 @@ The template uses reusable section patterns:
 <!-- Spotlight: Content-image alternating layout -->
 <section class="spotlight style1 orient-right onscroll-image-fade-in">
 
-<!-- Gallery: Horizontal scroll with lightbox -->
-<div class="gallery style2 medium lightbox onscroll-fade-in">
+<!-- Gallery: Grid with lightbox -->
+<div class="gallery style1 lightbox onscroll-fade-in">
 ```
 
 **Common classes:**
@@ -140,4 +169,3 @@ The template uses reusable section patterns:
 - [Font Awesome](https://fontawesome.io)
 
 **Original Template Author**: AJ (aj@lkn.io | @ajlkn)
-
