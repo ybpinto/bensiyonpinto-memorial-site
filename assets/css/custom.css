@@ -519,12 +519,12 @@ footer.wrapper.style1 .inner p {
 	margin-bottom: 1rem;
 }
 
-/* Mobile: stack columns vertically */
-@media screen and (max-width: 980px) {
+/* Tablet/Mobile: stack columns vertically */
+@media screen and (max-width: 1280px) {
 	.service-columns {
 		flex-direction: column;
 		gap: 2rem;
-		padding: 0 1.5rem;
+		padding: 0 2rem;
 	}
 
 	.service-column {
@@ -533,7 +533,18 @@ footer.wrapper.style1 .inner p {
 
 	.video-container,
 	.tombstone-image {
-		height: 300px;
+		height: 500px;
+	}
+}
+
+@media screen and (max-width: 736px) {
+	.service-columns {
+		padding: 0 1.5rem;
+	}
+
+	.video-container,
+	.tombstone-image {
+		height: 280px;
 	}
 }
 
