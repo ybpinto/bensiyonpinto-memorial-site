@@ -423,6 +423,13 @@ footer.wrapper.style1 .inner p {
 	object-fit: cover;
 }
 
+/* Large/wide screens: taller gallery images */
+@media screen and (min-width: 1920px) {
+	.gallery.style1 article .image img {
+		height: 450px;
+	}
+}
+
 @media screen and (max-width: 980px) {
 	#professional .gallery.style1,
 	#family .gallery.style1 {
